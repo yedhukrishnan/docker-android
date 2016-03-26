@@ -32,7 +32,7 @@ RUN echo y | /usr/local/android-sdk-linux/tools/android update sdk --no-ui --for
 RUN cd /usr/local/ && curl -L -O http://services.gradle.org/distributions/gradle-2.2.1-all.zip && unzip -o gradle-2.2.1-all.zip
 
 # Environment variables
-ENV JAVA_HOME /usr/lib/jvm/java-1.7.0-openjdk
+ENV JAVA_HOME /usr/lib/jvm/java-1.7.0-openjdk-1.7.0.9.x86_64
 ENV ANDROID_HOME /usr/local/android-sdk-linux
 
 ENV GRADLE_HOME /usr/local/gradle-2.2.1
